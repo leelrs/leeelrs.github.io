@@ -106,7 +106,7 @@ const projects = {
     sections: [
       {
         heading: 'Overview',
-        text: 'The previous monolithic motherboard made competition debugging a nightmare — a single sensor failure required replacing the whole board mid-race. I redesigned it as a modular platform: a validated core board handles power and MCU routing, while sensor modules plug in independently and can be hot-swapped.'
+        text: 'The previous monolithic motherboard made competition debugging a nightmare; if a single sensor failed, figuring out where the issue was could take forever. I redesigned it as a modular platform: a validated core board handles power and MCU routing, while sensor modules plug in independently and can be hot-swapped.'
       },
       {
         heading: 'Architecture',
@@ -119,7 +119,7 @@ const projects = {
       },
       {
         heading: 'Impact',
-        text: 'Sensor module swaps now take minutes instead of hours. The architecture eliminated a critical single point of failure from competition day and significantly accelerated the team\'s sensor development cycle.'
+        text: 'Sensor module swaps now take minutes instead of hours. The architecture eliminated a critical single point of failure from competition and testing days and significantly accelerated the team's sensor development cycle.'
       },
       { heading: 'Photos & Schematics', photo: '📷 Altium 3D render, board layout, assembled PCB, sensor module plug-in' }
     ]
